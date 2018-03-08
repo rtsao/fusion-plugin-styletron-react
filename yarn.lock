@@ -4603,6 +4603,13 @@ styletron-core@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/styletron-core/-/styletron-core-3.0.4.tgz#648081572a8de30acbe3008cd283c421565444bb"
 
+styletron-engine-atomic@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/styletron-engine-atomic/-/styletron-engine-atomic-1.0.1.tgz#1f2047463fa50f78264ed8237ca5da1a7b72ee2b"
+  dependencies:
+    inline-style-prefixer "^4.0.0"
+    styletron-standard "^1.0.0"
+
 styletron-react@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/styletron-react/-/styletron-react-3.0.4.tgz#fe7714778a809f6c2634b62a334fc0b6ba265a36"
@@ -4618,6 +4625,12 @@ styletron-server@^3.0.4:
   resolved "https://registry.yarnpkg.com/styletron-server/-/styletron-server-3.0.4.tgz#6bf24643b2ce84198d0fcb7c27308f00880c8dfd"
   dependencies:
     styletron-core "^3.0.4"
+
+styletron-standard@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/styletron-standard/-/styletron-standard-1.0.0.tgz#9136a0e24d178bc9f7ef2448a7bb9999d103d76d"
+  dependencies:
+    inline-style-prefixer "^4.0.0"
 
 styletron-utils@^3.0.4:
   version "3.0.4"
